@@ -144,5 +144,44 @@
     border: 5px solid #ff00aa; 
   }
 
+@media (max-width: 1600px) {
+ .aot {
+   right: 50px;
+ }
+ .ocean_title1 {
+   right: 75px;
+ }
+ .aot1 {
+  left: 10px;
+}
+.ocean_title {
+  left: 26px;
+}
+.secret {
+  width: 1120px;
+}
+.thx {
+  margin-left: 69px;
+  font-size: 20px;
+  }
+.memories {
+  width: 1535px;
+  min-height: 1203px;
+}
+.memories_genshin {
+  left: 258px;
+}
+.memories_cartoons_img {
+  margin-top: 68px;
+  margin-left: 50px;
+}
+.memories_pfp {
+  top: 1600px;
+  left: 330px;
+}
+.end {
+  left: 351px;
+}
+  }
 
 /*# sourceMappingURL=style.css.map */
