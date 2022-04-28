@@ -144,9 +144,5 @@
     border: 5px solid #ff00aa; 
   }
 
-@media (max-width: 1800px) {
-  * {
-    display: none;
-  }
-}
+
 /*# sourceMappingURL=style.css.map */
