@@ -86,17 +86,17 @@
   min-height: 1500px; }
 
 .memories_cartoons {
-  top: 1130px;
+  top: 1127px;
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  left: 300px; }
+  left: 457px; }
 
 .memories_cartoons_img {
   width: 33%;
   margin-top: 150px;
-  margin-left: 76px;
+  margin-left: 5px;
   border: 3px solid; }
   .memories_cartoons_img:hover {
     border: 5px solid #ff00aa; }
@@ -123,27 +123,76 @@
   text-decoration: underline;
   color: #ea00ff;
   bottom: -50px;
-  left: 430px; }
+  left: 390px; }
 
 
 .memories_pfp
   {
-    top: 1770px;
+    top: 1720px;
     position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    left: 385px;
+    left: 410px;
   }
 
 .pfp {
   width: 35%;
-  margin-left: 20px;
+  margin-left: 5px;
   border: 3px solid; }
   .pfp:hover {
     border: 5px solid #ff00aa; 
   }
 
+  @media (max-width: 1680px) {
+.aot {
+  right: 50px;
+  }
+.ocean_title1 {
+  right: 75px;
+}
+  .aot1 {
+    left: 10px;
+}
+.ocean_title {
+    left: 26px;
+}
+.secret {
+    width: 1120px;
+}
+.thx {
+    margin-left: 69px;
+    font-size: 20px;
+}
+.memories {
+    width: 1535px;
+    min-height: 1203px;
+}
+.memories_genshin {
+    left: 311px;
+}
+.memories_img {
+    width: 36%;
+}
+.memories_cartoons {
+    left: 349px;
+}
+.memories_cartoons_img {
+    margin-top: 46px;
+    margin-left: 14px;
+}
+.memories_pfp {
+    top: 1590px;
+    left: 330px;
+}
+.end {
+    left: 351px;
+}
+.pfp {
+    margin-left: 4px;
+}
+}
+  
 @media (max-width: 1600px) {
  .aot {
    right: 50px;
@@ -183,5 +232,63 @@
   left: 351px;
 }
   }
-
+@media (max-width: 1440px) {
+  .title {
+    font-size: 42px;
+  }
+  .title_sub {
+  padding-left: 100px;
+  font-weight: 400;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 14px;
+  width: 770px;
+  }
+  .aot {
+    right: 50px;
+    }
+  .ocean_title1 {
+    right: 75px;
+  }
+    .aot1 {
+      left: 10px;
+  }
+  .ocean_title {
+      left: 26px;
+  }
+  .secret {
+      width: 912px;
+  }
+  .thx {
+      margin-left: -68px;
+      font-size: 20px;
+  }
+  .memories {
+    width: 1499px;
+    min-height: 1122px;
+  }
+  .memories_genshin {
+      left: 275px;
+  }
+  .memories_img {
+      width: 38%;
+  }
+  .memories_cartoons {
+      left: 349px;
+  }
+  .memories_cartoons_img {
+    margin-top: 5px;
+    margin-left: 11px;
+  }
+  .memories_pfp {
+    top: 1475px;
+    left: 335px;
+  }
+  .end {
+    left: 274px
+  }
+  .pfp {
+      margin-left: 4px;
+  }  
+}
 /*# sourceMappingURL=style.css.map */
