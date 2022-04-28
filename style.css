@@ -1,0 +1,298 @@
+* {
+  font-family: "Roboto", sans-serif; }
+
+.container {
+  width: 900px;
+  z-index: 1; }
+
+.title {
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 80px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all; }
+  .title:hover {
+    color: #fc1498ce; }
+
+.title_sub {
+  font-weight: 400;
+  margin-top: 25px;
+  text-align: center; }
+
+.icon {
+  margin-left: 10px;
+  width: 8%;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all; }
+  .icon:hover {
+    width: 14%; }
+
+.aot {
+  position: absolute;
+  width: 300px;
+  right: 120px;
+  top: 100px;
+  z-index: -1;
+  border: 3px solid; }
+
+.aot1 {
+  position: absolute;
+  width: 350px;
+  left: 100px;
+  top: 100px;
+  z-index: -1;
+  border: 3px solid; }
+
+.ocean_title {
+  position: absolute;
+  font-weight: 300;
+  top: 580px;
+  left: 110px; }
+
+.ocean_title1 {
+  position: absolute;
+  text-align: center;
+  font-weight: 300;
+  top: 590px;
+  right: 143px; }
+
+.thx {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 250px; }
+
+.memories {
+  background: url(../img/bg2.jpg) center center / cover no-repeat;
+}
+
+.memories_genshin {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 300px; }
+
+.memories_img {
+  width: 40%;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 3px solid; }
+  .memories_img:hover {
+    border: 5px solid #ff00aa; }
+
+.memories {
+  min-height: 1500px; }
+
+.memories_cartoons {
+  top: 1127px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 457px; }
+
+.memories_cartoons_img {
+  width: 33%;
+  margin-top: 150px;
+  margin-left: 5px;
+  border: 3px solid; }
+  .memories_cartoons_img:hover {
+    border: 5px solid #ff00aa; }
+
+.secret {
+  position: absolute;
+  z-index: 2;
+  width: 1400px;
+  left: 240px;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: -200px;
+  font-size: 50px;
+  color: #ffffff; }
+  .secret:hover {
+    color: #ea00ff; }
+
+.end {
+  position: absolute;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  color: #ea00ff;
+  bottom: -50px;
+  left: 390px; }
+
+
+.memories_pfp
+  {
+    top: 1720px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 410px;
+  }
+
+.pfp {
+  width: 35%;
+  margin-left: 5px;
+  border: 3px solid; }
+  .pfp:hover {
+    border: 5px solid #ff00aa; 
+  }
+
+  @media (max-width: 1680px) {
+.aot {
+  right: 50px;
+  }
+.ocean_title1 {
+  right: 75px;
+}
+  .aot1 {
+    left: 10px;
+}
+.ocean_title {
+    left: 26px;
+}
+.secret {
+    width: 1120px;
+}
+.thx {
+    margin-left: 69px;
+    font-size: 20px;
+}
+.memories {
+    width: 1535px;
+    min-height: 1203px;
+}
+.memories_genshin {
+    left: 311px;
+}
+.memories_img {
+    width: 36%;
+}
+.memories_cartoons {
+    left: 349px;
+}
+.memories_cartoons_img {
+    margin-top: 46px;
+    margin-left: 14px;
+}
+.memories_pfp {
+    top: 1590px;
+    left: 330px;
+}
+.end {
+    left: 351px;
+}
+.pfp {
+    margin-left: 4px;
+}
+}
+  
+@media (max-width: 1600px) {
+ .aot {
+   right: 50px;
+ }
+ .ocean_title1 {
+   right: 75px;
+ }
+ .aot1 {
+  left: 10px;
+}
+.ocean_title {
+  left: 26px;
+}
+.secret {
+  width: 1060px;
+}
+.thx {
+  margin-left: -36px;
+  font-size: 21px;
+  }
+.memories {
+  width: 1535px;
+  min-height: 1203px;
+}
+.memories_genshin {
+  left: 258px;
+}
+.memories_cartoons {
+  left: 303px;
+}
+
+.memories_cartoons_img {
+  margin-top: 29px;
+  margin-left: 11px;
+}
+.memories_pfp {
+  top: 1575px;
+  left: 281px;
+}
+.end {
+  left: 351px;
+}
+  }
+@media (max-width: 1440px) {
+  .title {
+    font-size: 42px;
+  }
+  .title_sub {
+  padding-left: 100px;
+  font-weight: 400;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 14px;
+  width: 770px;
+  }
+  .aot {
+    right: 50px;
+    }
+  .ocean_title1 {
+    right: 75px;
+  }
+    .aot1 {
+      left: 10px;
+  }
+  .ocean_title {
+      left: 26px;
+  }
+  .secret {
+      width: 912px;
+  }
+  .thx {
+      margin-left: -68px;
+      font-size: 20px;
+  }
+  .memories {
+    width: 1499px;
+    min-height: 1122px;
+  }
+  .memories_genshin {
+      left: 275px;
+  }
+  .memories_img {
+      width: 38%;
+  }
+  .memories_cartoons {
+      left: 349px;
+  }
+  .memories_cartoons_img {
+    margin-top: 5px;
+    margin-left: 11px;
+  }
+  .memories_pfp {
+    top: 1475px;
+    left: 335px;
+  }
+  .end {
+    left: 274px
+  }
+  .pfp {
+      margin-left: 4px;
+  }  
+}
+/*# sourceMappingURL=style.css.map */
