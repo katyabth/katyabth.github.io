@@ -207,11 +207,11 @@
   left: 26px;
 }
 .secret {
-  width: 1120px;
+  width: 1060px;
 }
 .thx {
-  margin-left: 69px;
-  font-size: 20px;
+  margin-left: -36px;
+  font-size: 21px;
   }
 .memories {
   width: 1535px;
@@ -220,13 +220,17 @@
 .memories_genshin {
   left: 258px;
 }
+.memories_cartoons {
+  left: 303px;
+}
+
 .memories_cartoons_img {
-  margin-top: 68px;
-  margin-left: 50px;
+  margin-top: 29px;
+  margin-left: 11px;
 }
 .memories_pfp {
-  top: 1600px;
-  left: 330px;
+  top: 1575px;
+  left: 281px;
 }
 .end {
   left: 351px;
